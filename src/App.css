@@ -4,39 +4,60 @@
   padding: 2rem;
   text-align: center;
 }
+main{
+  margin: 0;
+}
+section{
+  float: left;
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+  padding: 5px;
+  height: 100%;
+  width: 100%;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+.displaySection{
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  width: 70%;
+  height: 100%;
+  padding: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.formSection{
+  text-align: justify;
+  align-items: center;
+  align-self: center;
+  width: 28%;
 }
-
-.card {
-  padding: 2em;
+.formSection button{
+  margin-top: 7px;
+  width: 100%;
+  color: yellowgreen;
 }
+article{
 
-.read-the-docs {
-  color: #888;
+  padding: 5px;
+  height: 100%;
+}
+input{
+  text-align: center;
+  border-radius: 7px;
+  background-color: dimgray;
+  color: bisque;
+}
+ol{
+  color: beige;
+}
+li{
+  border-radius: 20px;
+  border: 2px solid rgb(44, 42, 42);
+  color: black;
+}
+li{
+  background-color: dimgray;
+}
+.active{
+  color: black;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+}
+.inactive{
+  display: none;
 }
