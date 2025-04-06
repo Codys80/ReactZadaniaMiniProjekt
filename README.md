@@ -1,6 +1,5 @@
-# React + Vite
-Wymagania: 
-Prosty Tracker Wydatków w React 
+# Prosty Tracker Wydatków w React
+Wymagania:  
  
 Twoim zadaniem jest stworzenie prostej aplikacji do śledzenia wydatków. Aplikacja powinna pozwalać użytkownikowi na dodaanie wydatków, filtrowanie ich według kategorii oraz usuwanie wybranych pozycji. Całość powinna dynamicznie aktualizować sumę wydatków. 
  
